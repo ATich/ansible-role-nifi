@@ -182,9 +182,9 @@ To add another version - create directory in `templates/` with config's template
       users_search_bases:
         - ou=Admins,dc=corp,dc=ru
         - ou=Branches,dc=corp,dc=ru
-        - ou=Services,ou=TDP,dc=corp,dc=ru
+        - ou=Services,dc=corp,dc=ru
         - ou=Partners,dc=corp,dc=ru
-      groups_ou: ou=Access,ou=Groups,ou=TDP,dc=corp,dc=ru
+      groups_ou: ou=Access,ou=Groups,dc=corp,dc=ru
       groups_cn:
         - SYS NiFi Admins
         - SYS NiFi Developers
